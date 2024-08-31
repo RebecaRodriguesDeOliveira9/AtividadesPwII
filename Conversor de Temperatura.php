@@ -18,13 +18,12 @@ $numero3 = 32;
 
 $Resultado;
 
-if($Tempo =="Temperatura") {
 
 $Resultado = $temperaturaCelsius * $numero1 / $numero2 + $numero3;
 
-    echo "<h2>Resultado da temperatura: " .$Resultado "</h2>";
+    echo "<h2>Resultado da temperatura: " .$Resultado. "</h2>";
 
-}
+
 
 ?>
 

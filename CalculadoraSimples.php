@@ -15,26 +15,26 @@ $numero1 = 10;
 
 $numero2 = 55;  
 
-$operacao ; 
+$operacao = divisão; //Escreva o nome da operação para funcionar!
 
 
 if ($operacao == "soma") {
 
     $resultado = $numero1 + $numero2;
 
-    echo "O resultado da soma é: " . $resultado;
+    echo "<h2>O resultado da soma é: </h2>" . $resultado;
 
 } elseif ($operacao == "subtração") {
 
     $resultado = $numero1 - $numero2;
 
-    echo "O resultado da subtração é: " . $resultado;
+    echo "<h2>O resultado da subtração é: </h2>" . $resultado;
 
 } elseif ($operacao == "multiplicação") {
 
     $resultado = $numero1 * $numero2;
 
-    echo "O resultado da multiplicação é: " . $resultado;
+    echo "<h2>O resultado da multiplicação é: </h2>" . $resultado;
 
 } elseif ($operacao == "divisão") {
 
@@ -42,13 +42,13 @@ if ($operacao == "soma") {
 
         $resultado = $numero1 / $numero2;
 
-        echo "O resultado da divisão é: " . $resultado;
+        echo "<h2>O resultado da divisão é: </h2>" . $resultado;
 
     } else {
-        echo "Erro: divisão por zero não é permitida.";
+        echo "<h2>Erro: divisão por zero não é permitida.</h2>";
     }
 } else {
-    echo "Operação inválida.";
+    echo "<h2>Operação inválida.</h2>";
 }
 ?>
     
